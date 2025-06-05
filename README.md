@@ -25,6 +25,7 @@ There are no releases. It's built from a seleted commit.
 
 Updated	SPI (Boot EEPROM) firmware. Especially important on the Pi5
 
+bug 930063
 
 ## sys-boot/raspberrypi-firmware
 
@@ -32,8 +33,11 @@ Together with a recent kernel (6.12.x?) and recent dev-embedded/rpi-eeprom provi
 
 e.g. Fake NUMA, and increased DRAM refresh interval (less frequent refreshes), so that there is more DRAM time for useful work.
 
+bug 952814
 
 ## sys-kernel/raspberrypi-image
 
 Not tested by me at all as I have root in LVM with a module free initramfs. This kernel does not support that, so I don't use it.
 It pulls a set of binary files from github so should be OK. The image looks good. 
+
+bug 952813
