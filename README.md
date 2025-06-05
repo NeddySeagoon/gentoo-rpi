@@ -13,3 +13,22 @@ If arm (32 bit) works, that's luck. Well the binary things are tested by upstrea
 
 Do no file bugs for ebuilds here as they are not officially supported.
 
+They are all simple version bumps ... so far.
+
+## dev-embedded/raspberrypi-utils
+
+A collection of utilities that survive the deprciated/abandoned media-libs/raspberrypi-userland and media-libs/raspberrypi-userland-bin.
+There are no releases. It's built from a seleted commit.
+
+
+## dev-embedded/rpi-eeprom
+
+Updated	SPI (Boot EEPROM) firmware. Especially important on the Pi5
+
+
+## sys-boot/raspberrypi-firmware
+
+Together with a recent kernel (6.12.x?) and recent dev-embedded/rpi-eeprom provides some Pi5 performance enhancements.
+
+e.g. Fake NUMA, and increased DRAM refresh interval (less frequent refreshes), so that there is more DRAM time for useful work.
+
